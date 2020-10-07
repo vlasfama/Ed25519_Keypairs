@@ -1,0 +1,22 @@
+[package]
+name = "ed25519_keypairs"
+version = "0.1.0"
+authors = ["nagaraj <nagarajmanjunath22@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ed25519-dalek = "1.0.1"
+bip39 = "0.6.0-beta.1"
+rand = "0.7.3"
+pbkdf2 = { version = "0.3.0", default-features = false }
+hmac = "0.7.0"
+serde = "1.0.112"
+serde_json = "1.0.56"
+serde_derive = "1.0.103"
+sha2 = "0.8.2"
+subtle = "2"
+subtle-encoding = { version = "0.5", features = ["bech32-preview"] }
+anyhow = "1.0.26"
+blake3 = "0.3.6"
